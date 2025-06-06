@@ -57,7 +57,10 @@ export default function AboutSection() {
           <h2 className="text-5xl md:text-5xl text-left px-5 mb-6">Looking ahead</h2>
           <div className="md:flex md:gap-10 text-lg md:text-xl px-5 pb-20 text-left text-gray-800 leading-relaxed">
             <p className="md:w-1/2">
-              xyz
+              As I immerse deeper into the world of UX/UI design, I’m
+              particularly excited about the potential of integrating
+              sustainable practices into digital design, thereby embedding
+              purpose.
             </p>
             <p className="md:w-1/2 mt-6 md:mt-0">
               I dream of contributing to projects that not only look good but
