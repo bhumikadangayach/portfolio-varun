@@ -15,7 +15,7 @@ const Hero = () => {
 
       {/* Main Heading */}
       <h1 className="text-2xl md:text-6xl leading-snug">
-        jfbdauibfaegjn I'm Varun Soni, The{" "}
+        I'm Varun Soni, The{" "}
         <span className="italic font-normal">Tolerable</span> UI/UX Designer
         (from India
         <span className="text-sm ml-1 font-normal">
