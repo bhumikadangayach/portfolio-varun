@@ -7,6 +7,9 @@ export default function Navbar() {
   const [showNavbar, setShowNavbar] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [resumeClicked, setResumeClicked] = useState(false);
+  const [aboutClicked, setAboutClicked] = useState(false);
+
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
@@ -41,12 +44,23 @@ export default function Navbar() {
 
         {/* Desktop Nav Links */}
         <div className="hidden md:block space-x-4 text-sm px-10 text-[#584391]">
-          <a href="/resume" className="hover:text-gray-500 transition-colors " onclick="this.classList.toggle('line-through')">
+           <a
+            href="/resume"
+            className={`hover:text-gray-500 transition-colors ${resumeClicked ? "line-through" : ""}`}
+            onClick={(e) => {
+              // e.preventDefault(); // Prevent navigation for demo; remove in prod
+              setResumeClicked(!resumeClicked);
+            }}
+          >
             Resume
           </a>
           <a
             href="/AboutSection"
-            className="hover:text-gray-500 transition-colors"
+            className={`hover:text-gray-500 transition-colors ${aboutClicked ? "line-through" : ""}`}
+            onClick={(e) => {
+              // e.preventDefault(); // Prevent navigation for demo; remove in prod
+              setAboutClicked(!aboutClicked);
+            }}
           >
             About me
           </a>
