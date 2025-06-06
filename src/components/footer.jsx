@@ -11,7 +11,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="bg-[#444444] text-left text-white font-sans min-h-screen">
+    <div className="bg-[#444444] text-left text-white font-sans w-full">
       {/* Top Section */}
       <div className="px-20 py-32">
         <h2 className="text-5xl font-semibold mb-4">

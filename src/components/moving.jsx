@@ -11,7 +11,7 @@ import { Autoplay, FreeMode } from "swiper/modules";
 
 function Moving() {
   return (
-    <div className="max-w-6xl mx-auto my-8">
+    <div className="w-full mx-auto my-8">
       <Swiper
         modules={[Autoplay, FreeMode]}
         spaceBetween={10}

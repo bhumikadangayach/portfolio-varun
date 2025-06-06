@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Resume() {
   return (
-    <div className="bg-[#f7f7f7]">
+    <div className="bg-[#f7f7f7] w-full">
     <div className="bg-white rounded-b-[80px] shadow-sm px-6 md:px-40 py-20  text-center md:text-left">
       <div className="max-w-4xl px-4 py-16 mx-auto">
         <h1 className="text-4xl md:text-[54px] leading-tight text-gray-900">

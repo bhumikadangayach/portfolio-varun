@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AboutSection() {
   return (
-    <div  className="bg-[#efefef]">
+    <div  className=" w-full bg-[#efefef]">
       <div className="w-full px-20 rounded-b-[80px] bg-white md:px-20 pb-20 pt-36 text-3xl bg-white">
         <h2 className="text-3xl md:text-6xl text-black mb-16 text-center md:text-left">
           Who I am beyond Design

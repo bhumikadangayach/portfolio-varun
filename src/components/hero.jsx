@@ -5,7 +5,7 @@ import Moving from "./moving"; // 🔧 Uncommented import
 
 const Hero = () => {
   return (
-    <section className="bg-[#DEDEDE] flex flex-col text-left px-24 py-40">
+    <section className="bg-[#DEDEDE] flex flex-col w-full text-left px-24 py-40">
       {/* Profile Photo */}
       <img
         src="https://framerusercontent.com/images/DlZRn9Ow9D5ezEE6PsuRcTk1zcU.png?scale-down-to=512"
